@@ -1,4 +1,4 @@
-#Goal
+# Goal
 You enter a section of road and you plan to rest entirely on your cruise control to cross the area without having to stop or slow down.
 The goal is to find the maximum speed (off speeding) that will allow you to cross all the traffic lights to green.
 
@@ -6,7 +6,7 @@ Warning: You can not cross a traffic light the second it turns red !
 
 Your vehicle enters the zone directly at the speed programmed on the cruise control which ensures that it does not change anymore.
 
-Input
+# Input
 Line 1: An integer speed for the maximum speed allowed on the portion of the road (in km / h).
 Line 2: An integer lightCount for the number of traffic lights on the road.
 
@@ -17,10 +17,10 @@ lightCount next lines:
 A traffic light alternates a period of duration seconds in green and then duration seconds in red.
 All traffic lights turn green at the same time as you enter the area.
 
-Output
+# Output
 Line 1: The integer speed (km / h) as high as possible that cross all the green lights without committing speeding.
 
-Constraints
+# Constraints
 1 ≤ speed ≤ 200
 1 ≤ lightCount ≤ 9999
 1 ≤ distance ≤ 99999
