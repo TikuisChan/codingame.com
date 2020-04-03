@@ -7,7 +7,8 @@ Warning: You can not cross a traffic light the second it turns red !
 Your vehicle enters the zone directly at the speed programmed on the cruise control which ensures that it does not change anymore.
 
 # Input
-Line 1: An integer speed for the maximum speed allowed on the portion of the road (in km / h).
+Line 1: An integer speed for the maximum speed allowed on the portion of the road (in km / h). 
+
 Line 2: An integer lightCount for the number of traffic lights on the road.
 
 lightCount next lines:
