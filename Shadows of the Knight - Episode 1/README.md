@@ -36,10 +36,10 @@ The direction indicating where the bomb is.
 A single line with 2 integers X Y separated by a space character. (X, Y) represents the location of the next window Batman should jump to. X represents the index along the horizontal axis, Y represents the index along the vertical axis. (0,0) is located in the top-left corner of the building.
 
 ## Constraints
-1 ≤ W ≤ 10000
-1 ≤ H ≤ 10000
-2 ≤ N ≤ 100
-0 ≤ X, X0 < W
-0 ≤ Y, Y0 < H
-Response time per turn ≤ 150ms
-Response time per turn ≤ 150ms
+- 1 ≤ W ≤ 10000
+- 1 ≤ H ≤ 10000
+- 2 ≤ N ≤ 100
+- 0 ≤ X, X0 < W
+- 0 ≤ Y, Y0 < H
+- Response time per turn ≤ 150ms
+- Response time per turn ≤ 150ms
