@@ -22,7 +22,7 @@ All traffic lights turn green at the same time as you enter the area.
 Line 1: The integer speed (km / h) as high as possible that cross all the green lights without committing speeding.
 
 # Constraints
-1 ≤ speed ≤ 200
-1 ≤ lightCount ≤ 9999
-1 ≤ distance ≤ 99999
-1 ≤ duration ≤ 9999
+- 1 ≤ speed ≤ 200
+- 1 ≤ lightCount ≤ 9999
+- 1 ≤ distance ≤ 99999
+- 1 ≤ duration ≤ 9999
