@@ -10,14 +10,15 @@ for i in range(height):
     matrix.append(line)
 # Write an action using print
 # To debug: print("Debug messages...", file=sys.stderr)
-output = []
-counter = 0
+output_list = []
+
 for i in range(height):
     for j in range(width):
         if matrix[i][j] == '0':
             output = str(i) + ' ' + str(j) + ' '
             r_neighbor = False
             d_neighbor = False
+            
             if j < width:
                 for k in range(j+1, width):
                     if matrix[i][k] == '0':
@@ -26,6 +27,7 @@ for i in range(height):
                         break
             if not r_neighbor:
                 output += str(-1) + ' ' + str(-1) + ' '
+            
             if i < height:
                 for l in range(i+1, height):
                     if matrix[l][j] == '0':
@@ -34,7 +36,10 @@ for i in range(height):
                         break
             if not d_neighbor:
                 output += str(-1) + ' ' + str(-1) + ' '
+            
+            output_list.append(output)
 
 # Three coordinates: a node, its right neighbor, its bottom neighbor
 # print("0 0 1 0 0 1")\
+for output in output_list:    
     print(output)
