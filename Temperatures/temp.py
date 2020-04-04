@@ -5,21 +5,17 @@ import math
 # the standard input according to the problem statement.
 n = int(input())  # the number of temperatures to analyse
 
-t = []
-t_abs = []
-
-for i in input().split():
-    # t: a temperature expressed as an integer ranging from -273 to 5526
-    t.append(int(i))
-    t_abs.append(abs(int(i)))
-
 # Write an action using print
 # To debug: print("Debug messages...", file=sys.stderr)
 if n == 0:
     print(0)
 else:
-    ans = min(t_abs)
-    if ans in t:
-        print(ans)
+    t = []
+    for i in input().split():
+        # t: a temperature expressed as an integer ranging from -273 to 5526
+        t.append(int(i))
+    ans = sorted(t, key=abs)[0]
+    if abs(ans) in t:
+        print(abs(ans))
     else:
-        print(-1 * ans)
+        print(ans)
