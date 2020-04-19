@@ -1,4 +1,4 @@
-#The Goal
+# The Goal
 The saying "Dwarfs standing on the shoulders of giants" refers to the importance of being able to build upon the work of our predecessors.  
 When we read texts, we often only get a small glance of this dependence: this person influenced that person. Thereafter, we learn that the second person, in turn influenced a third and so on. In this exercise we’re interested in the chain of influence and more precisely in finding the longest possible chain.​
 #	Rules  
